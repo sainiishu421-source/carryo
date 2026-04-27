@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carryo — Antigravity bags that defy physics. Futuristic, weightless, built for the unbreakable.">
+    <title>Carryo — Defy Gravity. Carry Power.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAV -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">⬡ <span>CARRYO</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Technology</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#why">Why Carryo</a></li>
+                <li><a href="#products" class="cta-link">BUY CARRYO</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero" class="hero-section">
+        <canvas id="particle-canvas"></canvas>
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+            <div class="hero-badge"><span class="badge-dot"></span> ANTIGRAVITY TECHNOLOGY</div>
+            <h1 class="hero-title">
+                <span class="title-line">DEFY</span>
+                <span class="title-line accent">GRAVITY.</span>
+                <span class="title-line">CARRY</span>
+                <span class="title-line accent">POWER.</span>
+            </h1>
+            <p class="hero-subtitle">The world's first antigravity carrying system. Carryo bags use advanced electromagnetic suspension to reduce perceived weight by up to <strong>80%</strong>. Feel nothing. Carry everything.</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary"><span class="btn-text">BUY CARRYO</span><span class="btn-glow"></span></a>
+                <a href="#about" class="btn btn-secondary"><span class="btn-text">LEARN MORE</span> →</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item"><span class="stat-number" data-target="80">0</span><span class="stat-symbol">%</span><span class="stat-label">Weight Reduced</span></div>
+                <div class="stat-item"><span class="stat-number" data-target="12">0</span><span class="stat-symbol">K+</span><span class="stat-label">Users Worldwide</span></div>
+                <div class="stat-item"><span class="stat-number" data-target="48">0</span><span class="stat-symbol">h</span><span class="stat-label">Battery Life</span></div>
+            </div>
+        </div>
+        <div class="scroll-indicator"><div class="scroll-line"></div><span>SCROLL</span></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">// TECHNOLOGY</span>
+                <h2 class="section-title">THE SCIENCE OF <span class="accent">WEIGHTLESSNESS</span></h2>
+                <p class="section-desc">Carryo harnesses quantum electromagnetic suspension to redistribute gravitational load — making the impossible, wearable.</p>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-card reveal-up">
+                    <div class="tech-icon">⚡</div>
+                    <h3>Electromagnetic Core</h3>
+                    <p>Proprietary EM-field generators create micro-levitation zones that counteract gravitational pull on carried contents.</p>
+                    <span class="tech-stat">-80% Load</span>
+                </div>
+                <div class="tech-card reveal-up">
+                    <div class="tech-icon">🔷</div>
+                    <h3>Quantum Weave Fabric</h3>
+                    <p>Nano-engineered carbon lattice material 10x stronger than steel yet lighter than traditional nylon.</p>
+                    <span class="tech-stat">10x Strength</span>
+                </div>
+                <div class="tech-card reveal-up">
+                    <div class="tech-icon">🔋</div>
+                    <h3>48h Fusion Battery</h3>
+                    <p>Solid-state graphene cells deliver 48 hours of continuous antigravity operation on a single charge.</p>
+                    <span class="tech-stat">48h Power</span>
+                </div>
+                <div class="tech-card reveal-up">
+                    <div class="tech-icon">🧠</div>
+                    <h3>Neural Sync AI</h3>
+                    <p>Onboard AI adapts weight distribution in real-time, learning your movement patterns for optimal comfort.</p>
+                    <span class="tech-stat">AI Powered</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="products-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">// PRODUCTS</span>
+                <h2 class="section-title">CHOOSE YOUR <span class="accent">WEAPON</span></h2>
+                <p class="section-desc">Three ruthless designs. One mission: eliminate weight.</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card reveal-up">
+                    <div class="product-badge">BESTSELLER</div>
+                    <div class="product-image-wrapper">
+                        <img src="bag1.png" alt="Carryo Phantom Pack" class="product-image" loading="lazy">
+                        <div class="product-glow blue"></div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">BACKPACK</span>
+                        <h3 class="product-name">PHANTOM PACK</h3>
+                        <p class="product-desc">The flagship. 35L capacity feels like 7L. For urban warriors who refuse to slow down.</p>
+                        <ul class="product-features">
+                            <li>◈ 80% Weight Reduction</li>
+                            <li>◈ Quantum Weave Shell</li>
+                            <li>◈ 48h Battery Life</li>
+                            <li>◈ Neural Sync AI</li>
+                        </ul>
+                        <div class="product-footer">
+                            <span class="product-price">$499</span>
+                            <button class="btn btn-add-cart" data-name="Phantom Pack">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card reveal-up">
+                    <div class="product-badge hot">NEW</div>
+                    <div class="product-image-wrapper">
+                        <img src="bag2.png" alt="Carryo Spectre Sling" class="product-image" loading="lazy">
+                        <div class="product-glow red"></div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">MESSENGER</span>
+                        <h3 class="product-name">SPECTRE SLING</h3>
+                        <p class="product-desc">Stealth meets force. 20L of invisible weight. Cross-body dominance for the relentless.</p>
+                        <ul class="product-features">
+                            <li>◈ 75% Weight Reduction</li>
+                            <li>◈ Stealth Carbon Body</li>
+                            <li>◈ 36h Battery Life</li>
+                            <li>◈ Quick-Charge USB-C</li>
+                        </ul>
+                        <div class="product-footer">
+                            <span class="product-price">$399</span>
+                            <button class="btn btn-add-cart" data-name="Spectre Sling">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card reveal-up">
+                    <div class="product-badge elite">ELITE</div>
+                    <div class="product-image-wrapper">
+                        <img src="bag3.png" alt="Carryo Vortex Duffel" class="product-image" loading="lazy">
+                        <div class="product-glow green"></div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">DUFFEL</span>
+                        <h3 class="product-name">VORTEX DUFFEL</h3>
+                        <p class="product-desc">50L beast. Travel with the force of a fighter jet and the weight of a feather.</p>
+                        <ul class="product-features">
+                            <li>◈ 85% Weight Reduction</li>
+                            <li>◈ Kevlar Fusion Build</li>
+                            <li>◈ 60h Battery Life</li>
+                            <li>◈ Dual EM Cores</li>
+                        </ul>
+                        <div class="product-footer">
+                            <span class="product-price">$699</span>
+                            <button class="btn btn-add-cart" data-name="Vortex Duffel">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CARRYO -->
+    <section id="why" class="why-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">// WHY CARRYO</span>
+                <h2 class="section-title">BUILT FOR THE <span class="accent">UNBREAKABLE</span></h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card reveal-up">
+                    <span class="why-number">01</span>
+                    <h3>LIGHTER THAN PHYSICS</h3>
+                    <p>Our EM core doesn't just reduce weight — it rewrites the rules.</p>
+                </div>
+                <div class="why-card reveal-up">
+                    <span class="why-number">02</span>
+                    <h3>BUILT FOR THE UNBREAKABLE</h3>
+                    <p>Drop it. Drag it. Throw it. Carryo doesn't flinch.</p>
+                </div>
+                <div class="why-card reveal-up">
+                    <span class="why-number">03</span>
+                    <h3>ENGINEERED TO DOMINATE</h3>
+                    <p>Neural Sync AI learns how you move. It's not a bag — it's an extension of you.</p>
+                </div>
+                <div class="why-card reveal-up">
+                    <span class="why-number">04</span>
+                    <h3>ZERO COMPROMISES</h3>
+                    <p>Style. Power. Durability. Intelligence. Other brands pick two. Carryo takes all four.</p>
+                </div>
+            </div>
+            <div class="why-cta reveal-up">
+                <a href="#products" class="btn btn-primary btn-large"><span class="btn-text">JOIN THE REVOLUTION</span><span class="btn-glow"></span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">⬡ <span>CARRYO</span></a>
+                    <p>Defy Gravity. Carry Power.<br>The future of carrying is here.</p>
+                </div>
+                <div class="footer-links-group">
+                    <div class="footer-col">
+                        <h4>EXPLORE</h4>
+                        <ul><li><a href="#about">Technology</a></li><li><a href="#products">Products</a></li><li><a href="#why">Why Carryo</a></li></ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>SUPPORT</h4>
+                        <ul><li><a href="#">FAQ</a></li><li><a href="#">Shipping</a></li><li><a href="#">Returns</a></li></ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h4>CONNECT</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="X">𝕏</a>
+                        <a href="#" class="social-icon" aria-label="Instagram">◻</a>
+                        <a href="#" class="social-icon" aria-label="YouTube">▶</a>
+                        <a href="#" class="social-icon" aria-label="TikTok">♪</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Carryo Inc. All rights reserved. Gravity is optional.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CHATBOT WIDGET -->
+    <div class="chatbot-toggle" id="chatbot-toggle" aria-label="Open chat">
+        <span class="chatbot-toggle-icon">💬</span>
+        <span class="chatbot-toggle-pulse"></span>
+    </div>
+    <div class="chatbot" id="chatbot">
+        <div class="chatbot-header">
+            <div class="chatbot-header-info">
+                <span class="chatbot-avatar">⬡</span>
+                <div>
+                    <span class="chatbot-name">CARRYO AI</span>
+                    <span class="chatbot-status"><span class="status-dot"></span> Online</span>
+                </div>
+            </div>
+            <button class="chatbot-close" id="chatbot-close" aria-label="Close chat">✕</button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages"></div>
+        <div class="chatbot-quick" id="chatbot-quick">
+            <button class="quick-btn" data-q="products">Our Products</button>
+            <button class="quick-btn" data-q="technology">Technology</button>
+            <button class="quick-btn" data-q="shipping">Shipping</button>
+            <button class="quick-btn" data-q="returns">Returns</button>
+        </div>
+        <div class="chatbot-input-area">
+            <input type="text" class="chatbot-input" id="chatbot-input" placeholder="Ask Carryo AI..." autocomplete="off">
+            <button class="chatbot-send" id="chatbot-send" aria-label="Send message">→</button>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="cart-toast"><span>✓</span> <span id="toast-msg">Added to cart!</span></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
